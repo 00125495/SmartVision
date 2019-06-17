@@ -1,5 +1,5 @@
 # SmartVision
-this is for grab aiforsea under computer vision challange
+This is for grab aiforsea under computer vision challange ( Make, Model and Color recognition ) ( ##not for commercial usage )
 car recognition by fine-tuning ResNet-152 with Cars Dataset from Stanford
 and detects the cars using YOLOv3 object detector, crops the car images, makes them square while keeping the aspect ratio, resizes them to the input size of the classifier, and recognizes the color of each car. 
 
