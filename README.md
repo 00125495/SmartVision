@@ -1,5 +1,7 @@
 # SmartVision
 this is for grab aiforsea under computer vision challange
+car recognition by fine-tuning ResNet-152 with Cars Dataset from Stanford
+and detects the cars using YOLOv3 object detector, crops the car images, makes them square while keeping the aspect ratio, resizes them to the input size of the classifier, and recognizes the color of each car. 
 
 USGAE:
 
@@ -40,6 +42,8 @@ please run the preprocessing script: Extract 8,144 training images, and split th
 ```bash
 $ python pre-process.py
 ```
+<img src="ComputerVision/images/preprocessing.JPG" alt="preprocessing"/>
+
 for demo:
 ```bash
 $ python main.py -h # for help
@@ -48,10 +52,17 @@ $ python main.py -f 00002.jpg #look for specific image in data/test folder
 ```
 returns result.json file in project directory
 
+<img src="ComputerVision/images/demo.JPG" alt="demo1"/>
+
 ```bash
 $ python main.py --randomimage --size 10 # validation aganist random 10 images in data/test folder
+```
+<img src="ComputerVision/images/demo2.JPG" alt="demo2"/>
+
+<img src="ComputerVision/images/demo3.JPG" alt="demo3"/>
 
 ##train:
+```bash
 $ python train.py
 ```
 ```bash
@@ -61,6 +72,15 @@ $ python analyze.py
 #valiation:
 $ python test.py
 ```
+If you want to visualize during training, run in your terminal:
+```bash
+$ tensorboard --logdir path_to_current_dir/logs
+```
+<img src="ComputerVision/images/train.JPG" alt="demo3"/>
 
+
+##Resut
+
+<img src="ComputerVision/images/resut.JPG" alt="resut"/>
 
 
