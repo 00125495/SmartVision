@@ -28,6 +28,8 @@ Model Fine tune Rsnet152 tf weights:
 
 https://drive.google.com/open?id=1wjiD8ujWOIzIThGX58x7ICk9HkkrOnVB
 
+
+
 envinorment fie: 
 
 please run the preprocessing script: Extract 8,144 training images, and split them by 80:20 rule (6,515 for training, 1,629 for validation):
