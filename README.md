@@ -23,15 +23,15 @@ $ cd ComputerVision/models
 ```
 Model moilenet weights:
 ```bash
-$ wget https://drive.google.com/open?id=1W3YXmnfVH7mHHbGMSpgecKI_twRE24lg
+https://drive.google.com/open?id=1W3YXmnfVH7mHHbGMSpgecKI_twRE24lg
 ```
 Model Fine tune Rsnet152:
 ```bash
-$ wget https://drive.google.com/open?id=1bjJwDKvWMsuy1wEDQNAMz4Mw2QenYZQb
+https://drive.google.com/open?id=1bjJwDKvWMsuy1wEDQNAMz4Mw2QenYZQb
 ```
 Model Fine tune Rsnet152 tf weights:
 ```bash
-$wget https://drive.google.com/open?id=1wjiD8ujWOIzIThGX58x7ICk9HkkrOnVB
+https://drive.google.com/open?id=1wjiD8ujWOIzIThGX58x7ICk9HkkrOnVB
 ```
 <img src="ComputerVision/images/models.JPG" alt="models"/>
 
